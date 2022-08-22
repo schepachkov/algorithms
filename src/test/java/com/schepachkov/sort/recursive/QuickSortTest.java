@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MergeSortTest extends RecursiveSortableTest {
+class QuickSortTest extends RecursiveSortableTest {
 
     @Test
-    void sortDouble() {
-        RecursiveSortable recursiveSortable = new MergeSort();
+    void sortInt() {
+        RecursiveSortable recursiveSortable = new QuickSort();
         Integer[] emptyArr = new Integer[0];
         Integer[] singleArr = new Integer[1];
         Integer[] commonSmallArr = new Integer[11];
